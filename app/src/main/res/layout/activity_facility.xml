@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacilityActivity">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+
+        <ImageView
+            android:id="@+id/facility"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24" />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="40dp"
+               android:text="Facilities"
+               android:textColor="@color/white"
+               android:textSize="20sp" />
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Our Facilities"
+        android:textColor="#E82466"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+
+       <LinearLayout
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+
+           <ImageView
+               android:id="@+id/pool"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:src="@drawable/img_3"
+               />
+
+          <LinearLayout
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_marginLeft="20dp"
+                  android:id="@+id/pool1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="50dp"
+                  android:text=" Swimming Pool"
+                  android:textSize="20dp"
+                  android:textStyle="bold" />
+              <TextView
+                  android:layout_marginLeft="20dp"
+                  android:id="@+id/pool2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Feel the splash of summer with our amazing pool,the only place that wil keep you cool."
+                  android:textSize="15sp"
+                  android:textStyle="bold" />
+
+          </LinearLayout>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+
+           <ImageView
+               android:id="@+id/gym"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:src="@drawable/img_15"/>
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:layout_marginLeft="20dp"
+                   android:id="@+id/pool3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="50dp"
+                   android:text="Gym house"
+                   android:textSize="20dp"
+                   android:textStyle="bold"/>
+
+               <TextView
+                   android:layout_marginLeft="20dp"
+                   android:id="@+id/pool4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text=" Everyone needs a tune up.Don't stop till you drop and get the inspiration."
+                   android:textSize="15sp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/hall"
+          android:layout_width="200dp"
+          android:layout_height="200dp"
+          android:src="@drawable/img_16"/>
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+
+           <TextView
+               android:layout_marginLeft="20dp"
+               android:id="@+id/pool5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="50dp"
+               android:text="Multipurpose hall"
+               android:textSize="20dp"
+               android:textStyle="bold"/>
+
+           <TextView
+               android:layout_marginLeft="20dp"
+               android:id="@+id/pool6"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text=" Celebrations done right with moments made perfect."
+               android:textSize="15sp"
+               android:textStyle="bold" />
+
+
+    </LinearLayout>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:id="@+id/lounge"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:src="@drawable/img_18" />
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/lounge7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Orange Lounge"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/lounge1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get the taste of sunshine brighten your day."
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_marginLeft="30dp"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+
+           <ImageView
+               android:id="@+id/bar"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:src="@drawable/img_19" />
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+
+
+
+
+           <TextView
+               android:layout_marginLeft="20dp"
+               android:id="@+id/bar2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="50dp"
+               android:text="Bar"
+               android:textSize="20dp"
+               android:textColor="@color/black"
+               android:textStyle="bold" />
+
+               <TextView
+                   android:layout_marginLeft="20dp"
+                   android:id="@+id/lounge9"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Enjoy your life to the fullest,making every moment count."
+                   android:textSize="15sp"
+                   android:textColor="@color/black"
+                   android:textStyle="bold" />
+
+
+
+       </LinearLayout>
+       </LinearLayout>
+
+
+   </LinearLayout>
+
+</ScrollView>

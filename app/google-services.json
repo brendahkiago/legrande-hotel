@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "905017707190",
+    "project_id": "legrandehotel-85581",
+    "storage_bucket": "legrandehotel-85581.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905017707190:android:c49ca7d4ef991af5c5f417",
+        "android_client_info": {
+          "package_name": "com.example.legrandehotel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905017707190-5cltgdrgoaejur1jh3jsje1dhak04nvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb0R-sBbn0Ve8gJbAL9flFcDtfPdb6KMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905017707190-5cltgdrgoaejur1jh3jsje1dhak04nvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

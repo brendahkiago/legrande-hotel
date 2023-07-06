@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#E91E63"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_menu_24"/>
+
+    <TextView
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:layout_marginStart="2dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textColor="@color/white"
+        android:layout_marginStart="32dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/facilities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facilities"
+        android:textColor="@color/white"
+        android:layout_marginStart="32dp"
+        android:textSize="20sp"/>
+
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textColor="@color/white"
+        android:layout_marginStart="32dp"
+        android:textSize="20sp"/>
+
+
+</androidx.appcompat.widget.Toolbar>
